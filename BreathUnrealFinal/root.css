@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+:root {
+    --light-green: #b9e394;
+    --light-blue: #8bb5ed;
+    --off-white: #f8f5ed;
+    --dark-blue: #404970;
+}
+
+body {
+    font-family: 'Shrikhand', cursive;
+    color: var(--dark-blue);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--off-white);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;  /* Remove underline */
+    color: inherit;         /* Inherit color from parent element */
+    font: inherit;          /* Inherit font properties from parent */
+    background: none;       /* Remove any background */
+    border: none;           /* Remove any borders */
+    outline: none;          /* Remove focus outline */
+}
+
+/* Remove styles for pseudo-classes */
+a:hover,
+a:active,
+a:focus,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.NavBarDiv {
+    margin-top: -3rem;
+    background-color: var(--light-green);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.NavLinks {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.NavLinks:hover {
+    color: var(--light-blue);
+}
+
+.LogoDisplayDiv {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.LogoDisplayDiv img {
+    padding-top: 1rem;
+    width: 60%;
+}
+
+button {
+    all: unset;                  /* Reset all inheritable and non-inheritable properties */
+    display: inline-block;       /* Set display to inline-block to ensure the button behaves like a button */
+    cursor: pointer;             /* Ensure the button still shows a pointer cursor */
+    color: var(--light-blue);
+    border: solid .15rem var(--light-blue);
+    padding: .4rem .9rem;
+    border-radius: .7rem;
+}
+
+button:hover {
+    color: var(--light-green);
+    border: solid .15rem var(--light-green);
+}
+
+img {
+    width: 100%;
+}
+
+.NavBarDivDesktop {
+    background-color: var(--light-green);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0rem;
+    align-items: center;
+}
+
+#NavLogoDesktop {
+    height: 9vh;
+    width: auto;
+}
+
+.nextBtnContainerDivDesktop{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.nextBtnContainerDivDesktop button{
+    font-size: larger;
+}

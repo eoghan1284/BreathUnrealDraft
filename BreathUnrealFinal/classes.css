@@ -1,0 +1,96 @@
+.container {
+    display: none; 
+}
+
+.containerDesktop {
+    display: block; 
+}
+
+@media (max-width: 1000px) {
+    .container {
+        display: block; 
+    }
+
+    .containerDesktop {
+        display: none;
+    }
+}
+
+img{
+    width: 100%;
+}
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contentDiv{
+    padding: 1rem;
+}
+
+p{
+    padding: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.classesContentTitleDivDesktop{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+}
+
+.ContentDivDesktop{
+    display: flex;
+    gap: 4rem;
+    padding: 0rem 5rem;
+}
+
+.contentDivDesktopText{
+    flex: 1;
+}
+.contentDivDesktopImage{
+    flex: 1;
+    padding: 1rem 0;
+}
+
+.nxtContainerDesktop{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+
+
+.contactImagesBannerTopDesktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contactImagesBannerTopDesktop img{
+    width: 40%;
+}
+
+.contactsContainerDivDesktop{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactDivDesktop img{
+    height: 2rem;
+    width: auto;
+}
+
+.contactDiv button{
+    font-size: medium;
+}
+
+h1{
+    margin-top: 9rem;
+}

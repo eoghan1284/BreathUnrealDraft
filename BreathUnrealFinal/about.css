@@ -1,0 +1,12 @@
+.ContentDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Content{
+    text-align: center;
+}
+#TextContent{
+    padding: 1rem;
+}
